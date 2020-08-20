@@ -1,0 +1,104 @@
+/* Element Selectors */
+body {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+p {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+/* IDs */
+#title {
+    background-color: #2d4059;
+}
+/* Navigation Bar */
+.navbar {
+    background-color: #2d4059;
+    padding:0 15%;
+}
+.navbar-brand {
+font-size: 2rem;
+}
+.logoimg {
+    margin-right: 8px;
+}
+.navbar-nav a:hover {
+    border-bottom: solid 2px white;
+}
+.nav-link {
+    font-size: 1.2rem;
+    padding:0 15px !important;
+}
+/* Section 1 */
+.container-fluid {
+    padding: 3% 15%;
+}
+.margin_bottom {
+    margin-bottom: 5%;
+}
+.main_heading {
+    line-height: 2;
+    font-weight: bolder;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.btn_margin_right {
+    margin-right: 2%;
+}
+.probioticimg {
+    width: 100%;
+}
+.imgposition {
+    text-align: center;
+}
+   
+/* Features Section */
+        /* Font Awesome Icons */
+.fa-heartbeat, .fa-shield-virus, .fa-envira {
+    font-size: 6rem;
+}
+.fa-heartbeat {
+    color: #d54062;
+    transition: all 0.2s linear;
+}
+.fa-heartbeat:hover{
+    transform: scale(1.15) scale(0.9) scale(1.15);
+}
+.fa-shield-virus {
+    color:#ffa36c;
+    transition: all 1s linear;
+}
+.fa-shield-virus:hover {
+    transform: rotateY(180deg);
+}
+.fa-envira {
+    color: #799351;
+    transition: all 1s linear;
+}
+.fa-envira:hover {
+    transform: translate(-50px, -50px) rotateX(180deg);
+}
+        /* layout */
+
+        .features_section {
+   text-align: center;
+}         
+.features_section p {
+    color: #2d4059;
+}
+
+
+/* Media Queris */
+@media screen and (max-width: 1200px) {
+    .probioticimg {
+        display: none;
+    }
+    .container-fluid {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 576px) {
+    .main_heading {
+        line-height: 1;
+        font-weight: normal;
+    }
+}
