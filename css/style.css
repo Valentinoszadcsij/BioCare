@@ -97,8 +97,17 @@ font-size: 2rem;
     }
 }
 @media screen and (max-width: 576px) {
+    .nanvbar {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .container-fluid {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
     .main_heading {
         line-height: 1;
         font-weight: normal;
     }
+
 }
