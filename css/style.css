@@ -20,6 +20,8 @@ p {
 .navbar-brand {
 font-size: 2rem;
 }
+
+
 .logoimg {
     margin-right: 8px;
 }
@@ -124,9 +126,10 @@ color: #d9d9ea;
 
 /* Media Queris */
 @media screen and (max-width: 1200px) {
-    .probioticimg {
-        display: none;
-    }
+    .navbar-nav {
+        background-color: #2d4059; 
+    box-shadow: 3px 3px 6px 0px #5F6475;}
+    
     .section_width {
         text-align: center;
         padding-left: 5% !important;
